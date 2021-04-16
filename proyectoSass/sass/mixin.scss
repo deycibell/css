@@ -1,0 +1,20 @@
+@mixin rectangulo($fondo,$ancho){
+    background-color: $fondo;
+    width: $ancho;
+    height: 75px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.rectangulo{
+    @include rectangulo(#f53e3e,300px);
+}
+.rectangulo_2{
+    @include rectangulo(rgb(132, 255, 132),200px);
+}
+.rectangulo_3{
+    @include rectangulo(rgb(36, 56, 240),400px);
+}

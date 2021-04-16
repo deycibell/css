@@ -1,0 +1,12 @@
+%mensaje-body{
+    border: 2px solid salmon;
+    padding: 1rem;
+    color: #333;
+}
+.mensaje{
+    @extend %mensaje-body;
+}
+.todobien{
+    @extend %mensaje-body;
+    border: 3px solid red;
+}

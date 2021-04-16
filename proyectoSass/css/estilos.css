@@ -1,0 +1,76 @@
+section {
+  height: 300px;
+  background: #b88585;
+  box-shadow: 5px 5px 5px 5px green;
+  padding: 5px;
+}
+section h3 {
+  color: seagreen;
+}
+section p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: seashell;
+}
+
+header {
+  height: 250px;
+  background: #b88585;
+  color: wheat;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 5px green;
+}
+header h2 {
+  color: #ddcadd;
+  font-style: italic;
+}
+header h2 a {
+  text-decoration: none;
+  color: yellow;
+}
+
+footer p {
+  background: silver;
+  height: 30px;
+  color: #d316d3;
+  text-align: center;
+  font-size: 20px;
+  font-style: oblique;
+  padding: 10px;
+}
+
+nav {
+  height: 50px;
+  background: #08b9ff;
+  box-shadow: 5px 5px 5px 5px green;
+  margin: 15px;
+  font-family: arial;
+  text-align: center;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  width: 100PX;
+  padding: 15PX;
+}
+nav a {
+  text-decoration: none;
+  color: #b1690b;
+  font-style: bold;
+}
+
+h1 {
+  color: red;
+}
+
+body {
+  background: #adadff;
+  font-family: arial;
+}
+
+.contenido {
+  background: #88c288;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

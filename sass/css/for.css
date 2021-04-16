@@ -1,0 +1,31 @@
+/*Bucle For*/
+.caja1 {
+  background: red;
+  height: 20px;
+}
+
+.caja2 {
+  background: red;
+  height: 40px;
+}
+
+.caja3 {
+  background: red;
+  height: 60px;
+}
+
+.caja4 {
+  background: red;
+  height: 80px;
+}
+
+div {
+  width: 50%;
+  margin-bottom: 5px;
+}
+
+p {
+  font: 10px/2px;
+}
+
+/*# sourceMappingURL=for.css.map */

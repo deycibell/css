@@ -1,0 +1,11 @@
+.todobien, .mensaje {
+  border: 2px solid salmon;
+  padding: 1rem;
+  color: #333;
+}
+
+.todobien {
+  border: 3px solid red;
+}
+
+/*# sourceMappingURL=herencia.css.map */

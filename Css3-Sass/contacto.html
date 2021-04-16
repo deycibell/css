@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Proyecto Css3</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="cabecera">
+            <div class="cabecera__logo">
+                <img src="logotipo.jpg" alt="logotipo" width="350" height="70">
+            </div>
+            <div class="cabecera__titulo">
+                <h1>Titulo de la Página</h1>
+            </div>
+            <ul class="cabecera__lista">
+                <li><a href="#"><img src="twitter.jpg" alt="twitter" width="45" height="45"></a></li>
+                <li><a href="#"><img src="facebook.jpg" alt="face" width="45" height="45"></a></li>
+            </ul>
+        </header>
+        <nav class="menu">
+            <ul class="menu__nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="contacto">
+                <h1>Contacto</h1>
+                <div class="contenido">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ad distinctio quidem laboriosam
+                        consectetur, minima exercitationem nisi quibusdam, et labore quia non beatae aliquam fugit
+                        debitis. Consequatur quis natus optio.</p>
+                </div>
+                <div class="formulario">
+                    <form action="validacion.html" name="formulario1" method="POST">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" placeholder="Ingrese Nombre" required class="campo"><br>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" class="campo"><br>
+
+                        <label for="clave">Clave:</label>
+                        <input type="password" name="clave" class="campo"><br>
+                        
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea cols="30" rows="10" class="campo"></textarea><br>
+
+                        <input type="submit" value="Enviar Formulario" class="boton">
+
+                    </form>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>

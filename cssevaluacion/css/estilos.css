@@ -1,0 +1,98 @@
+.cabecera__inicial {
+  background: black;
+  padding-left: 30px;
+  padding-top: 8px;
+  height: 50px;
+  color: white;
+}
+
+header {
+  height: 80px;
+  background: white;
+  padding: 8px;
+}
+
+.cabecera__logo {
+  width: 125px;
+  display: inline;
+  padding-left: 10px;
+  float: left;
+}
+
+nav {
+  float: left;
+  margin-left: 120px;
+  padding-top: 15px;
+}
+nav li {
+  padding: 15px;
+  list-style: none;
+  display: inline;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: #f35948;
+  font-size: x-large;
+  box-shadow: 2px 2px 2px 2px #00a2ff;
+}
+
+.cabecera__ingreso {
+  float: right;
+  width: 225px;
+  padding-top: 15px;
+}
+.cabecera__ingreso img {
+  float: left;
+}
+.cabecera__ingreso a {
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+  float: left;
+}
+
+section {
+  padding: 60px;
+}
+section .seccion__img {
+  float: left;
+  margin: 0%;
+  padding: 0%;
+  width: 320px;
+  height: 320px;
+  display: inline-block;
+}
+section .seccion__texto {
+  float: left;
+  margin: 5px;
+  padding-bottom: 120px;
+  text-align: justify;
+  width: 320px;
+  height: 200px;
+  display: inline-block;
+}
+
+footer {
+  clear: both;
+  background: #15c2f7;
+  color: white;
+  height: 64px;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+.banner {
+  margin-top: 1px;
+  background: #15c2f7;
+  height: 400px;
+  width: 100%;
+}
+.banner img {
+  padding: 60px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

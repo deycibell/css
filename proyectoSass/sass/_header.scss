@@ -1,0 +1,16 @@
+header{
+    height: 250px;
+    background: rgb(184, 133, 133);
+    color: wheat;
+    padding: 10px;
+    box-shadow: $shadow-std;
+    h2{
+        color: rgb(221, 202, 221);
+        font-style: italic;
+        a{
+            text-decoration: none;
+            color: yellow;
+        }
+    }
+  
+}

@@ -1,0 +1,126 @@
+header, nav, section, article, footer{
+    display: block;
+}
+body{
+    background: #ff2f04;
+    margin: 3px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #f7a308;
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    width: 1000px;
+    margin:0 auto; /*centra el documento*/
+    background: #fff;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.cabecera{
+    height: 95px;
+    margin: 0%;
+
+}
+.cabecera__logo{
+    width: 350px;
+    height: 85px;
+    float: left;    
+}
+
+.cabecera__lista{
+    width: 120px;
+    height: 65px;
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.cabecera__lista li{
+    display: inline-block;
+}
+.menu{
+    height: 80px;
+    border-bottom: 4px solid #ff2f04;
+    background: #ff2f04;
+    border-radius:20px; 
+    text-align: center;
+
+}
+.menu__nav{
+    margin: 0;
+    padding: 0;/*Resetea la caja*/
+    list-style: none;
+    width: 870px;
+    height: 110px;
+    padding-top: 20px;
+    float: right;
+    
+}
+.menu__nav li{
+    display: inline-block;
+}
+.menu__nav li a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: bold;
+    color:#fff;
+    padding: 0 25px;
+    text-shadow: 2px 2px 2px #333;/*sombra*/
+    letter-spacing: 2px;/*Espacio entre letras*/
+}
+.menu__nav li a:hover{
+    color: #000;
+}
+
+.contenido{
+    background: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius:20px;
+    width: 560px;
+    margin-bottom: 2px;
+}
+.formulario{
+    width: 550px;
+    background-color: #d2d2d2;
+    padding: 25px;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+.formulario form{
+    font-size: 14px;
+    margin: 0 auto;
+    width: 400px;
+    padding: 4px;
+}
+.campo{
+    background: #eee;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+}
+.campo:focus{
+    background: #fff;
+    outline: none;
+    box-shadow: 0 0 10px #24607f;
+}
+.boton{
+    color: #fff;
+    background: #ff8a00;
+    border: 0;
+    padding: 10px;
+    width: 150px;
+    border-radius: 3px;
+}

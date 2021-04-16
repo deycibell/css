@@ -1,0 +1,23 @@
+nav{
+    height: 50px;
+    background: rgb(145, 205, 229);
+    box-shadow: $shadow-std;
+    margin: 15px;
+    font-family: $fuente1;
+    text-align: center;
+    li{
+        list-style: none;
+        display: inline-block;
+        width: 100PX;
+        padding: 15PX;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(36, 11, 177);
+        font-style: bold;
+    }
+    a:hover{
+        color: snow;
+        font-size: larger;
+    }
+}

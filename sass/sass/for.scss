@@ -1,0 +1,15 @@
+/*Bucle For*/
+@for $i from 1 through 4 {
+    .caja#{$i}{
+        background: red;
+        height: 20px * $i;
+    }
+}
+div{
+    width: 50%;
+    margin-bottom: 5px;
+}
+$whidth: 1000px;
+p{
+    font: 10px/2px;
+}

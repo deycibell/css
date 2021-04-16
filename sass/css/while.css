@@ -1,0 +1,86 @@
+.selector:nth-child(1) {
+  width: 30px;
+  height: 25px;
+  border: 1px solid #aaa;
+  background: #9f3232;
+  margin-bottom: 1px;
+}
+
+.selector:nth-child(2) {
+  width: 60px;
+  height: 25px;
+  border: 1px solid #aaa;
+  background: #9b3131;
+  margin-bottom: 2px;
+}
+
+.selector:nth-child(3) {
+  width: 90px;
+  height: 25px;
+  border: 1px solid #aaa;
+  background: #972f2f;
+  margin-bottom: 3px;
+}
+
+.selector:nth-child(4) {
+  width: 120px;
+  height: 25px;
+  border: 1px solid #aaa;
+  background: #932e2e;
+  margin-bottom: 4px;
+}
+
+.selector:nth-child(5) {
+  width: 150px;
+  height: 25px;
+  border: 1px solid #aaa;
+  background: #902d2d;
+  margin-bottom: 5px;
+}
+
+.selector:nth-child(6) {
+  width: 180px;
+  height: 25px;
+  border: 1px solid #aaa;
+  background: #8c2c2c;
+  margin-bottom: 6px;
+}
+
+.selector:nth-child(7) {
+  width: 210px;
+  height: 25px;
+  border: 1px solid #aaa;
+  background: #882a2a;
+  margin-bottom: 7px;
+}
+
+.selector:nth-child(8) {
+  width: 240px;
+  height: 25px;
+  border: 1px solid #aaa;
+  background: #842929;
+  margin-bottom: 8px;
+}
+
+.selector:nth-child(9) {
+  width: 270px;
+  height: 25px;
+  border: 1px solid #aaa;
+  background: #802828;
+  margin-bottom: 9px;
+}
+
+.selector:nth-child(10) {
+  width: 300px;
+  height: 25px;
+  border: 1px solid #aaa;
+  background: #7c2727;
+  margin-bottom: 10px;
+}
+
+section {
+  margin: 50px;
+  padding: 10%;
+}
+
+/*# sourceMappingURL=while.css.map */
